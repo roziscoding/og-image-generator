@@ -4,7 +4,7 @@ import {
   join,
 } from "https://deno.land/std@0.172.0/path/mod.ts";
 import { serve } from "https://deno.land/std@0.140.0/http/server.ts";
-import React from "https://esm.sh/react@18.2.0";
+import React, { createElement as h } from "https://esm.sh/react@18.2.0";
 import { ImageResponse } from "https://deno.land/x/og_edge@0.0.5/mod.ts";
 import { encode as toBase64 } from "https://deno.land/std@0.172.0/encoding/base64.ts";
 
